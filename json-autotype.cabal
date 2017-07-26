@@ -62,7 +62,7 @@ library
                        Data.Aeson.AutoType.Util
   build-depends:       base                 >=4.3  && <4.10,
                        GenericPretty        >=1.2  && <1.3,
-                       aeson                >=0.7  && <0.13,
+                       aeson                >=0.7  && <1.3,
                        bytestring           >=0.9  && <0.11,
                        containers           >=0.3  && <0.6,
                        filepath             >=1.3  && <1.5,
@@ -79,7 +79,7 @@ library
                        text                 >=1.1  && <1.4,
                        uniplate             >=1.6  && <1.7,
                        unordered-containers >=0.2  && <0.3,
-                       vector               >=0.9  && <0.12
+                       vector               >=0.9  && <0.13
   default-language:    Haskell2010
 
 executable json-autotype
@@ -103,14 +103,14 @@ executable json-autotype
                        RecordWildCards
   build-depends:       base                 >=4.3  && <4.10,
                        GenericPretty        >=1.2  && <1.3,
-                       aeson                >=0.7  && <0.12,
+                       aeson                >=0.7  && <1.3,
                        bytestring           >=0.9  && <0.11,
                        containers           >=0.3  && <0.6,
                        filepath             >=1.3  && <1.5,
                        hashable             >=1.2  && <1.3,
                        --hint                 >=0.4  && <0.6,
                        hflags               >=0.3  && <0.5,
-                       lens                 >=4.1  && <4.15,
+                       lens                 >=4.1  && <4.16,
                        mtl                  >=2.1  && <2.3,
                        pretty               >=1.1  && <1.3,
                        process              >=1.1  && <1.5,
@@ -118,7 +118,7 @@ executable json-autotype
                        text                 >=1.1  && <1.4,
                        uniplate             >=1.6  && <1.7,
                        unordered-containers >=0.2  && <0.3,
-                       vector               >=0.9  && <0.12,
+                       vector               >=0.9  && <0.13,
                        yaml                 >=0.8  && <0.9
   -- hs-source-dirs:      
   default-language:    Haskell2010
@@ -144,13 +144,13 @@ test-suite json-autotype-qc-test
                        RecordWildCards
   build-depends:       base                 >=4.3  && <4.10,
                        GenericPretty        >=1.2  && <1.3,
-                       aeson                >=0.7  && <0.12,
+                       aeson                >=0.7  && <1.3,
                        bytestring           >=0.9  && <0.11,
                        containers           >=0.3  && <0.6,
                        directory            >=1.1  && <1.3,
                        filepath             >=1.3  && <1.5,
                        hashable             >=1.2  && <1.3,
-                       lens                 >=4.1  && <4.15,
+                       lens                 >=4.1  && <4.16,
                        mtl                  >=2.1  && <2.3,
                        pretty               >=1.1  && <1.3,
                        process              >=1.1  && <1.5,
@@ -159,7 +159,7 @@ test-suite json-autotype-qc-test
                        text                 >=1.1  && <1.4,
                        uniplate             >=1.6  && <1.7,
                        unordered-containers >=0.2  && <0.3,
-                       vector               >=0.9  && <0.12,
+                       vector               >=0.9  && <0.13,
                        QuickCheck           >=2.4  && <3.0
   -- hs-source-dirs:      
   default-language:    Haskell2010
@@ -185,14 +185,14 @@ test-suite json-autotype-random-test
                        RecordWildCards
   build-depends:       base                 >=4.3  && <4.10,
                        GenericPretty        >=1.2  && <1.3,
-                       aeson                >=0.7  && <0.12,
+                       aeson                >=0.7  && <1.3,
                        bytestring           >=0.9  && <0.11,
                        containers           >=0.3  && <0.6,
                        directory            >=1.1  && <1.3,
                        filepath             >=1.3  && <1.5,
                        hashable             >=1.2  && <1.3,
                        optparse-applicative >=0.14 && <1.0,
-                       lens                 >=4.1  && <4.15,
+                       lens                 >=4.1  && <4.16,
                        mtl                  >=2.1  && <2.3,
                        pretty               >=1.1  && <1.3,
                        process              >=1.1  && <1.5,
@@ -201,7 +201,7 @@ test-suite json-autotype-random-test
                        text                 >=1.1  && <1.4,
                        uniplate             >=1.6  && <1.7,
                        unordered-containers >=0.2  && <0.3,
-                       vector               >=0.9  && <0.12,
+                       vector               >=0.9  && <0.13,
                        QuickCheck           >=2.4  && <3.0
   -- hs-source-dirs:      
   default-language:    Haskell2010
